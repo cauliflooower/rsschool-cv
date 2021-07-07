@@ -1,1 +1,0 @@
-https://cauliflooower.github.io/rsschool-cv/cv
