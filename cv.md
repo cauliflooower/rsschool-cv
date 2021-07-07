@@ -9,8 +9,7 @@
     sum = sum + (i*(i+1))/2
   }
   return sum
-}
-```
+}```;
 1. I have no work experience;
 1. I graduated from high school, I am studying in college as a software technician;
 1. A2.
