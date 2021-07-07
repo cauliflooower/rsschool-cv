@@ -3,7 +3,7 @@
    * E-mail: angelina.941053qw@gmail.com;
 1. Become a Frontend developer;
 1. A college student, I am studying Frontend development technologies;
-```javascript
+1. ```javascript
 function sumTriangularNumbers(n) {
   let sum = 0
   for (let i = 0; i <= n; i++){
