@@ -1,0 +1,56 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+.conteiner{
+	margin: 0 auto; 
+}
+
+.header{
+	top: 0;
+	left: 0;
+}
+
+.name{
+	padding: 20px 0;  
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.status{
+	font-size: 23px;
+}
+
+.fot{
+	width: 300px;
+}
+
+.item_right{
+    float: right;
+    width: 81%;
+    max-width: 1205px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+}
+
+.main{
+	display: block;
+}
+aside {
+    width: 19%;
+    float: left;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #212123;
+    overflow-x: hidden;
+   }
