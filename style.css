@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6{
 
 .status{
 	font-size: 23px;
+	padding-bottom: 50px;
 }
 
 .fot{
@@ -40,9 +41,6 @@ h1, h2, h3, h4, h5, h6{
     margin: auto;
 }
 
-.main{
-	display: block;
-}
 aside {
     width: 19%;
     float: left;
@@ -76,5 +74,20 @@ aside {
 	font-size: 14px;
 	font-weight: 300;
 	padding: 5px 0;
+}
+
+.main{
+	display: block;
+}
+
+.m_title{
+	text-transform: uppercase;
+	padding: 20px 0;
+	border-bottom: 2px solid #212123;
+	font-size: 18px;
+}
+
+.m_text{
+	font-size: 18px;
 }
 
