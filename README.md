@@ -1,1 +1,1 @@
-https://cauliflooower.github.io/rsschool-cv/cv
+https://cauliflooower.github.io/rsschool-cv/
