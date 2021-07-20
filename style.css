@@ -10,6 +10,8 @@ h1, h2, h3, h4, h5, h6{
 
 .conteiner{
 	margin: 0 auto; 
+	display: flex;
+	justify-content: center;
 }
 
 .header{
@@ -32,11 +34,12 @@ h1, h2, h3, h4, h5, h6{
 	width: 300px;
 }
 
-.item_right{
-    float: right;
-    width: 81%;
+.item_right{ 
+	display: block;
+	justify-content: center;
+    width: 60%;
     max-width: 1205px;
-    padding-left: 30px;
+    padding-left: 150px;
     padding-right: 30px;
     margin: auto;
 }
