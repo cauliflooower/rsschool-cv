@@ -1,60 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-	<title>CV</title>
-	<link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+        <link rel="stylesheet" href="style.css">  
+        <title>CV</title>
 </head>
 <body>
-    <div class="container">
-    <aside>
-        <img class="fot" src="content/DSCN1320.JPG" alt="Angelina Orlova">
-        <div class="contact">
-            <h3 class="c_title">Contact me</h3>
-            <ul class="contact_s">
-                <li>Adress<br><h4 class="point"> 41, Street Mira, Turets, Belarus</h4></li>
-                <li>Phone<br><h4 class="point">+375295831142</h4></li>
-                <li>E-mail<br><h4 class="point">angelina.941053qw@gmail.com</h4></li>
-            </ul>  
-        </div>
-        <div class="contact">
-            <h4 class="c_title">pro skills</h4>
-            <ul class="contact_s">
-                <li>HTML: 80%</li>
-                <li>CSS: 60%</li>
-                <li>JS: 10%</li>
-            </ul>
-        </div>
-    </aside>
-    <div class="item_right">
-        <header class="header">
-           <h1 class="name">Angelina Orlova</h1>
-           <h2 class="status">Student</h2>
-        </header>
-        <main class="main">
-            <h5 class="m_title">purpose</h5>
-            <p class="m_text">Become a Frontend developer.</p>
-            <h5 class="m_title">education</h5>
-            <p class="m_text">I graduated from high school, I am studying in college as a software technician. I have no work experience. Level of English: A2.</p>
-            <h5 class="m_title">sample code</h5>
-            <pre><code>function sumTriangularNumbers(n) {
-      let sum = 0
-      for (let i = 0; i &lt;= n; i++){
-        sum = sum + (i*(i+1))/2
-      }
-      return sum
-    };</code></pre>
-        </main>
-        <footer class="footer">
-            <div class="link">
-            <a class="git" href="https://github.com/cauliflooower">My GitHub: https://github.com/cauliflooower</a>
-            <h6 class="god">2021</h6>
-            <a class="kurs" href="https://rs.school/js/">Ссылка на курс: https://rs.school/js/</a>
+    <main class="main-content">
+        <section class="left-section">
+            <div class="left-content">
+                <div class="profile">
+                    <div class="image">
+                        <img src="img/DSCN1320.JPG" alt="profile">
+                    </div>
+                    <h1 class="name">Angelina Orlova</h1>
+                    <p class="career">novice web developer</p>
+                </div>
+                <div class="contact-info">
+                    <h2 class="main-title">Contact Info</h2>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            +375295831142
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            angelina.941053@gmail.com
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            1, Mira Street, Minsk
+                        </li>
+                        <li>
+                            <a href="https://m.vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fcauliflooower_%3Futm_medium%3Dcopy_link"><i class="fab fa-instagram"></i>
+                            cauliflooower</a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/cauliflooower"><i class="fab fa-telegram"></i>
+                            @cauliflooower</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills-section">
+                    <h2 class="main-title">Skills</h2>
+                    <ul>
+                        <li>
+                            <p class="skill-title">JS</p>
+                            <div class="progress-bar">
+                                <div class="progress js-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Python</p>
+                            <div class="progress-bar">
+                                <div class="progress py-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">C#</p>
+                            <div class="progress-bar">
+                                <div class="progress c-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">html</p>
+                            <div class="progress-bar">
+                                <div class="progress html-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">css</p>
+                            <div class="progress-bar">
+                                <div class="progress css-progress"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hobbies-section">
+                    <h2 class="main-title">hobbies</h2>
+                    <ul>
+                        <li>
+                            <i class="fas fa-camera-retro"></i>
+                            Photography
+                        </li>
+                        <li>
+                            <a href="https://m.vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fcauliflooower_%3Futm_medium%3Dcopy_link"><i class="fas fa-pencil-alt"></i>
+                            Painting</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="logo">
-            <img class="rs_fot" src="content/rs_school_js.svg">
+        </section>
+        <section class="right-section">
+            <h1>&nbsp;</h1>
+            <div class="right-main-content">
+            <section class="about sect" id="purpose">    
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="nav" id="nav">
+                        <a class="nav_link" data-goto="#purpose" href="#" data-scroll="#features">Purpose</a>
+                        <a class="nav_link" data-goto="#education" href="#" data-scroll="#works">Educatiion</a>
+                        <a class="nav_link" data-goto="#languages" href="#" data-scroll="#team">Languages</a>
+                        <a class="nav_link" data-goto="#projects" href="#" data-scroll="#reviews">My Projects</a>
+                        <a class="nav_link" data-goto="#samcode" href="#" data-scroll="#samcode">Sample code</a>	
+                    </nav>
+                </div>
+                    <h3 class="right-title">purpose</h3>
+                    <p class="para">Become a web developer. Be more disciplined and responsible. Do not be afraid to comprehend new things, learn.</p>
+            </section>  
+            <section class="education sect" id="education">
+                <h3 class="right-title">education</h3>
+                <p class="para">I graduated from high school, I am studying in college as a software technician. I have no work experience.</p>
+            </section>
+            <section class="languages sect" id="languages">
+                <h3 class="right-title">languages</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-globe-americas"></i>
+                        English
+                    </li>
+                    <li>
+                        <i class="fas fa-globe-americas"></i>
+                        German
+                    </li>
+                    <li>
+                        <i class="fas fa-globe-americas"></i>
+                        Russian
+                    </li>
+                    <li>
+                        <i class="fas fa-globe-americas"></i>
+                        Belarusian
+                    </li>
+                </ul>
+            </section>
+            <section class="projects sect" id="projects">
+                <h3 class="right-title">my projects</h3>
+                <img src="img/130334977-7aa56258-6083-40dd-8d85-2d934451d2f9.png" alt="vertical">
+                <a class="btn btn--red"  href="https://rolling-scopes-school.github.io/cauliflooower-JSFEPRESCHOOL/VerticalSlider/">See project</a>
+                <img src="img/museum.png" alt="museum">
+                <a class="btn btn--red"  href="https://rolling-scopes-school.github.io/cauliflooower-JSFEPRESCHOOL/museum/">See project</a>
+            </section>
+            <section class="sample-code sect" id="samcode">
+                <h3 class="right-title">Sample code</h3>
+                <pre><code>module.exports = function toReadable (number) {
+                    let obj = {
+                        
+                      0:'zero',1:'one',2:'two',3:'three',4:'four',5:'five',6:'six',7:'seven',8:'eight',9:'nine',10:'ten',
+                      11:'eleven',12:'twelve',13:'thirteen',14:'fourteen',15:"fifteen",16:'sixteen',17:'seventeen',18:'eighteen',
+                      19:'nineteen',20:'twenty',30:'thirty',40:'forty',50:'fifty',60:'sixty',70:'seventy',80:'eighty',90:'ninety',100:'one hundred', 200:'two hundred', 300:'three hundred', 400:'four hundred', 500:'five hundred', 600:'six hundred', 700:'seven hundred', 800:'eight hundred', 900:'nine hundred'};
+                  
+                  
+                  if(obj.hasOwnProperty(number)){
+                      return obj[number]
+                  }
+                  else if(number > 20 && number &lt; 100){
+                      let t = Math.trunc(number / 10)
+                      return obj[t * 10] + ' ' + obj[number - t*10] 
+                  }
+                  else if(number > 100 && number &lt; 1000){
+                      let h = Math.trunc(number / 100)
+                      return obj[h] + ' hundred ' +  toReadable(number - (h * 100))
+                  }
+                  }</code></pre>
+            </section>
             </div>
-        </footer>
-    </div>
-    </div>
+        </section>
+    </main>
+    <footer class="footer-content">
+        <div class="footer-section">
+            <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rs"></a>
+            <h4 class="year">2021</h4>
+            <a href="https://github.com/cauliflooower" class="git-link"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="app.js"></script>
 </body>
+</html>
